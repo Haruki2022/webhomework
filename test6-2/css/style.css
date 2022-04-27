@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-03-31 14:19:58
+ * @version $Id$
+ */
+li {
+	list-style: none;
+	font-size: 13px;
+}
+.g-index {
+    width: 1230px;
+    height: 780px;
+    background: #efefef;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid #c9c9c9;
+}
+.m-index {
+	background-color: #fff;
+}
+.m-top {
+    width: 390px;
+    height: 260px;
+}
+
+.m-ft {
+    width: 390px;
+    height: 100px;
+}
+li {
+    width: 370px;
+    height: 20px;
+    margin: 10px;
+}
+li:last-child {
+    height: 30px;
+    display: flex;
+    align-items: end;
+}
+em {
+	flex: 1;
+}
+span {
+    font-size: 13px;
+    color: #9c9c9c;
+}
+span:first-child{
+	color: red;
+	font-size: 14px;
+}
+li:last-child>span:first-child{
+	font-size: 16px;
+	font-weight: bold;
+	color: red;
+	margin-right: 3px;
+}
+li:last-child>span:nth-child(2){
+	font-size: 26px;
+	font-weight: bold;
+	color: red;
+	margin-right: 3px;
+}
+li:last-child>span:nth-child(3){
+    text-decoration:line-through;
+}
+li:last-child>span:nth-child(5){
+	color: red;
+	font-size: 12px;
+	font-weight: 1000;
+	margin-right: 3px;
+}
+img {
+    width: 390px;
+    height: 260px;
+}
+.m-index {
+    margin: 10px;
+}

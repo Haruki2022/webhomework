@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-13 10:26:17
+ * @version $Id$
+ */
+.g-index {
+	width: 700px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+img {
+	width: 100px;
+	height: 100px;
+	background-color: #c0c0c0;
+	margin: 10px;
+	border: 2px solid black;
+}
+.m-hide {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	margin-left: 200px;
+	margin-top: -150px;
+	background-color: #c0c0c0;
+}

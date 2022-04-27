@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-24 13:12:24
+ * @version $Id$
+ */
+li {
+	list-style: none;
+}
+.fa {
+	background-color: #008def;
+	margin-top: 15px;
+	width: 130px;
+	height: 26px;
+	border-radius: 6px;
+}
+
+.row>.col-md-4>.m-bt>li>span:nth-child(1),.row>.col-md-4>.m-bt>li>span:nth-child(3) {
+	color: #8cbdff;
+	margin-left: 20px;
+}
+.row>.col-md-4>.m-bt>li>span:nth-child(2),.row>.col-md-4>.m-bt>li>span:nth-child(4) {
+	color: #b5b5b5;
+	margin-right: 20px;
+}
+
+
+<div class="row" style="margin-top: 10px;">
+			<div class="col-md-1"></div>
+			<div class="col-md-1"></div>
+		</div>

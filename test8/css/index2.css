@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-14 15:55:36
+ * @version $Id$
+ */
+.g-index {
+	width: 600px;
+	margin-left: 50px;
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.g-menu {
+	width: 80px;
+	height: 30px;
+	border: 2px solid black;
+	border-right: none;
+	float: left;
+}
+.g-index>div:nth-child(3) {
+	border-right: 2px solid black;
+}
+.g-menu-hide {
+	float: left;
+	width: 256px;
+	height: 32px;
+	border-bottom: 2px solid black;
+}
+.m-bd {
+	width: 500px;
+	height: 300px;
+	border: 2px solid black;
+	border-top: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 80px;
+	font-weight: bold;
+	color: #c9c9c9;
+}

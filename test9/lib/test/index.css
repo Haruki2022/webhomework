@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-20 10:48:45
+ * @version $Id$
+ */
+li {
+	list-style: none;
+}
+select.form-control {
+	border: 0;
+	background-color: #00c2af;
+	height: 40px;
+}
+input[type="text"] {
+	border: 0;
+	background-color: #00a595;
+}
+.fa-circle {
+	margin: 10px;
+}
+
+.row>.col-md-3>li>span {
+	margin-left: 25px;
+}
+
+.container>.row>.clearfix>li:first-child {
+	margin-top: 10px;
+	color: green;
+	font-size: 16px;
+	font-weight: bold;
+}
+.fa-square {
+	color: #666;
+}
+.container>.row>.col-md-8>div>li:first-child {
+	margin-top: 10px;
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+}
+.container>.row>.col-md-8>.row>.col-md-6>li:first-child {
+	margin-top: 10px;
+	color: #ff46a6;
+	font-size: 16px;
+	font-weight: bold;
+}
+.container>.row>.col-md-8>.row>.col-md-6>li>span:nth-child(1),.container>.row>.col-md-8>.row>.col-md-6>li>span:nth-child(3),.container>.row>.col-md-8>.row>.col-md-6>li>span:nth-child(5) {
+	background-color: #4b4b4b;
+	color: white;
+	border-radius: 3px;
+}
+.container>.row>.col-md-9>div>li:first-child {
+	margin-top: 10px;
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+}
+.container>.row>.col-md-9>li>span:nth-child(2) {
+	color: #0ccbba;
+}
+.container>.row>.col-md-9>li>span:nth-child(3) {
+	color: #ffa216;
+	border: 1px solid #ffa216;
+	border-radius: 2px;
+}
+.row>.col-md-12 {
+	color: #14b7d5;
+	font-weight: bold;
+}
+.col-md-8 {
+	width:  66.6666%;
+	float: left;
+}
+.col-md-4 {
+	width:  33.3333%;
+	float: left;
+}
+.col-md-6 {
+	width:  50%;
+	float: left;
+}
+.col-md-3 {
+	width:  25%;
+	float: left;
+}
+.col-md-9 {
+	width:  75%;
+	float: left;
+}
